@@ -46,7 +46,7 @@ public class LoginTest extends Baseclass
 
 	}
 
-	@Test(enabled= false)
+	@Test(enabled= true)
 	public void LoginSuccesstest()
 	{
 
@@ -81,7 +81,7 @@ public class LoginTest extends Baseclass
 
 	}
 
-	@Test
+	@Test(enabled=false)
 	public void ExternalDatatest()
 	{
 		String UserNameVal = sheet.getRow(1).getCell(0).getStringCellValue();
